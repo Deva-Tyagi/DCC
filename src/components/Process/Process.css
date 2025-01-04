@@ -1,4 +1,4 @@
-.our-process{
+.our-process {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -11,18 +11,67 @@
     font-style: italic;
 }
 
-.service-area{
+.service-area {
     padding-bottom: 30px;
     padding: 2rem;
 }
 
-.service-area h2,p{
+.service-area h2, .service-area p {
     text-align: center;
     padding-bottom: 20px;
 }
-.service-area p{
+
+.service-area p {
     font-size: 17px;
 }
 
+@media (max-width: 768px) {
+    .service-area {
+        padding: 1.5rem;
+    }
+
+    .service-area h2 {
+        font-size: 24px;
+    }
+
+    .service-area p {
+        font-size: 16px;
+    }
+    .process-img{
+        width: 100%;
+        
+    }
+    .process-img img{
+        width: 80%;   
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .service-area {
+        padding: 1rem;
+    }
+
+    .service-area h2 {
+        font-size: 20px;
+    }
+
+    .service-area p {
+        font-size: 14px;
+    }
+}
 
 
+@media (max-width: 320px) {
+    .service-area {
+        padding: 0.5rem;
+    }
+
+    .service-area h2 {
+        font-size: 18px;
+    }
+
+    .service-area p {
+        font-size: 12px;
+    }
+}
